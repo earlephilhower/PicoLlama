@@ -1,5 +1,5 @@
 # Run whenever a PR is generated or updated.
-name: BackgroundAudio
+name: PicoLlama
 
 on:
   push:
