@@ -1,0 +1,26 @@
+{
+    "name": "PicoLlama",
+    "description": "Runs a LLAMA2 (not so) large langauge model on the Arduino-Pico2 using flash and PSRAM",
+    "keywords": "Pico 2, RP2350, LLM, LLAMA2, AI",
+    "authors": [
+        {
+            "name": "Earle F. Philhower, III",
+            "email": "earlephilhower@yahoo.com",
+            "url": "https://github.com/earlephilhower/PicoLlama",
+            "maintainer": true
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/earlephilhower/PicoLlama"
+    },
+    "version": "1.0.0",
+    "homepage": "https://github.com/earlephilhower/PicoLlama",
+    "frameworks": "Arduino",
+    "examples": [
+        "examples/*/*.ino"
+    ],
+    "build": {
+        "libLDFMode": "deep"
+    }
+}
