@@ -45,7 +45,7 @@ weeks 24/7 are required.  But for models running on the Pico2, due to their
 size limitation, can be trained on a single NVidia 1650-class 4GB card in
 a matter of hours!
 
-See the [upstream README](README.updtream.md) for instructions on building
+See the [upstream README](README.upstream.md) for instructions on building
 a Python `venv` to train in and using HuggingFace datasets.  Remember, the
 final model needs to fit in under 16MB of flash (i.e. under 4 million
 parameters total).  Once a `model.bin` has been generated, convert it
