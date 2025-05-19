@@ -320,7 +320,7 @@ A few words on this repo and the kinds of PRs that are likely to be accepted. Wh
 
 People who care about deployment efficiency above all else should look at [llama.cpp](https://github.com/ggerganov/llama.cpp). This repo still cares about efficiency, but not at the cost of simplicity, readability or portability. Basically, I expect that a lot of people come to this repo because the training code is 2 readable .py files and the inference code is 500 lines of C. So I'd like this to continue to be a kind of simplest "reference implementation" that can be easily hacked in a separate fork into whatever downstream application people are excited about. It shouldn't be full-featured. It shouldn't take 100 different options or settings. It shouldn't be the most efficient. A few examples:
 
-- someone re-ordered two loops to improve data locality for a small efficieny win => instant merge.
+- someone re-ordered two loops to improve data locality for a small efficiency win => instant merge.
 - someone added the one line "pragma omp parallel for", which allows you to compile with OpenMP and dramatically speed up the code, or acts as just a comment if you don't compile it that way => instant merge.
 - bug fixes and touchups etc. => happy to merge
 

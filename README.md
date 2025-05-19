@@ -6,6 +6,14 @@ no network needed.  For very limited definitions of the word "large."
 The onboard model needs to fit in onboard flash so is very small and limited,
 but it is running the same algorithm as its larger LLAMA2-based brethren.
 
+Generates output of the form
+````
+Once upon a time, there was a little girl named Lily.
+She loved to eat cookies and always put them in her mom's sack.
+One day, Lily's mom took her to the park to play.
+Lily saw a boy sitting on a bench. "Can I play with you?"...
+````
+
 For use only with [arduino-pico](https://github.com/earlephilhower/arduino-pico)
 due to the need for RP2350 and PSRAM support.
 
