@@ -350,6 +350,8 @@ If your candidate PRs have elements of these it doesn't mean they won't get merg
 - Android
   - [llama2.c-android](https://github.com/Manuel030/llama2.c-android): by @[Manuel030](https://github.com/Manuel030): adds Android binaries of this project
   - [llama2.c-android-wrapper](https://github.com/celikin/llama2.c-android-wrapper): by @[celikin](https://github.com/celikin): added JNI wrapper, PoC
+- Arduino
+  - [PicoLlama](https://github.com/earlephilhower/PicoLlama): by @[earlephilhower](https://github.com/earlephilhower): A port for Arduino on the Raspberry Pi Pico 2 (RP2350)
 - C
   - [llama3.c](https://github.com/jameswdelancey/llama3.c): by @[jameswdelancey](https://github.com/jameswdelancey): a LLaMA 3 8B Base and Instruct port of this project
 - C++
