@@ -1,6 +1,6 @@
 {
     "name": "PicoLlama",
-    "description": "Runs a LLAMA2 (not so) large language model on the Pico2 using flash and PSRAM",
+    "description": "Runs a LLAMA2 (not so) LLM (large language model) on the Pico2 using flash and PSRAM",
     "keywords": "Pico 2, RP2350, LLM, LLAMA2, AI",
     "authors": [
         {

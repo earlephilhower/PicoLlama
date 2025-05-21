@@ -1,6 +1,15 @@
 #include <PicoLlama.h>
+
+#if 1 // set to "#if 0" to use small model
+// This 14M model provides a token every ~850ms and is relatively coherent
 #include <tinystories14M.bin.h>
 #include <tokenizer0.bin.h>
+#else
+// This 2M model with a 4K tokenizer (vs 32K) runs about 4x faster and not quite so coherent...
+#include <tinystories2M.bin.h>
+#include <tok40960.bin.h>
+#endif
+
 
 PicoLlama cria; // Cria is a baby llama, look it up!
 
