@@ -14,7 +14,7 @@
         "type": "git",
         "url": "https://github.com/earlephilhower/PicoLlama"
     },
-    "version": "1.0.0",
+    "version": "1.1.0",
     "homepage": "https://github.com/earlephilhower/PicoLlama",
     "frameworks": "Arduino",
     "examples": [
